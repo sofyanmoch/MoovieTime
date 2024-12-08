@@ -46,13 +46,7 @@ Follow these steps to set up the project:
 
 ## Screenshot
 Home Page
-![Home](image.png)
-
-Search
 ![Search](image-3.png)
 
 Review Page
 ![Reviews](image-1.png)
-
-Movies
-![Movies](image-2.png)
