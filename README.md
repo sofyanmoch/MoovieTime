@@ -28,6 +28,7 @@ Follow these steps to set up the project:
     In the root directory of the project, create a new file named `.env` and add the following line:
     ```env
     TMDB_API_KEY=value
+    ```
 
     To get an API Key, Click Here [TMDB API](https://developer.themoviedb.org/docs/getting-started)
 
