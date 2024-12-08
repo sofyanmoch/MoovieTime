@@ -2,7 +2,7 @@
 const isDev = process.env.NODE_ENV === 'development'
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: ['@vueuse/nuxt', '@nuxt/image', 'nuxt-swiper'],
   image: {
   },

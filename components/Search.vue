@@ -70,7 +70,7 @@ onClickOutside(el, () => (showSearch.value = false));
 
 function redirectToDetail(id: number) {
   const router = useRouter();
-  router.push(`/detail/${id}`);
+  router.push(`/movie/${id}`);
   showSearch.value = false;
 }
 

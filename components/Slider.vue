@@ -33,7 +33,7 @@
           }"
         >
           <SwiperSlide v-for="(slide, idx) in items" :key="idx">
-            <NuxtLink :to="`/detail/${slide.id}`">
+            <NuxtLink :to="`/movie/${slide.id}`">
               <div class="grid grid-cols-[max-content_1fr] items-center">
                 <div class="aspect-[10/16] max-w-[14rem]">
                   <NuxtImg
