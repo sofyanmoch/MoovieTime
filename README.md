@@ -1,75 +1,40 @@
-# Nuxt Minimal Starter
+# Vue/Nuxt.js Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a project built using Vue.js and Nuxt.js. Follow the instructions below to set up and run the project on your local machine.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (v14 or higher) - [Download Node.js](https://nodejs.org/)
+- **npm** (comes with Node.js) or **yarn** (optional) - [Install Yarn](https://yarnpkg.com/)
 
 ## Setup
 
-Make sure to install dependencies:
+Follow these steps to set up the project:
 
-```bash
-# npm
-npm install
+1. **Clone the repository**:
 
-# pnpm
-pnpm install
+   If you haven't already cloned the repository, run the following command:
 
-# yarn
-yarn install
+   ```bash
+   git clone https://github.com/sofyanmoch/MoovieTime.git
 
-# bun
-bun install
-```
+2. **After cloning the repository, go to the project directory**:
+    ```bash
+    cd MoovieTime
 
-## Development Server
+3. **Install dependencies**
+    Install the necessary dependencies using either npm
+    ```bash
+    npm install
 
-Start the development server on `http://localhost:3000`:
+4. **Running the Project**
+    To start the development server and run the project locally, use the following command :
+    ```bash
+    npm run dev
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+5. **Building the Project for Production**
+    To create a production-ready build, run:
+    ```bash
+    npm run build
