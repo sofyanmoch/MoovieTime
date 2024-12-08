@@ -24,17 +24,24 @@ Follow these steps to set up the project:
     ```bash
     cd MoovieTime
 
-3. **Install dependencies**
+3. **Create a `.env` File**
+    In the root directory of the project, create a new file named `.env` and add the following line:
+    ```env
+    TMDB_API_KEY=value
+
+    To get an API Key, Click Here [TMDB API](https://developer.themoviedb.org/docs/getting-started)
+
+4. **Install dependencies**
     Install the necessary dependencies using either npm
     ```bash
     npm install
 
-4. **Running the Project**
+5. **Running the Project**
     To start the development server and run the project locally, use the following command :
     ```bash
     npm run dev
 
-5. **Building the Project for Production**
+6. **Building the Project for Production**
     To create a production-ready build, run:
     ```bash
     npm run build
