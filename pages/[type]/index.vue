@@ -6,7 +6,7 @@
       <!-- Header Section -->
       <div class="mb-6 flex items-end justify-between gap-4 md:mb-10">
         <h1 class="text-2xl font-semibold md:text-4xl">
-          <span class="mb-3 block h-1.5 w-20 bg-gray-300 md:w-32"></span>
+          <span class="bg-primary mb-3 block h-1.5 w-20 bg-gray-300 md:w-32"></span>
           <span class="capitalize">{{ title }}</span>
         </h1>
         <!-- Mobile Filter Controls -->

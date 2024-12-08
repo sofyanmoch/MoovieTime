@@ -56,7 +56,7 @@
               <div class="flex flex-col gap-1 text-xs font-medium uppercase">
                 <span class="text-white/50">Production</span>
                 <span class="text-white">{{
-                  item.production_companies[0]?.name || "-"
+                  item.production_companies?.[0]?.name || "-"
                 }}</span>
               </div>
             </div>
@@ -95,13 +95,13 @@
                 {{ item.title || item.name }}
               </h1>
               <span class="text-sm font-medium">
-                {{ item.genres.map((i: any) => i.name).join(", ") }}
+                {{ item?.genres?.map((i) => i.name).join(", ") }}
               </span>
             </div>
           </div>
         </div>
         <div
-          class="container absolute left-1/2 -translate-x-1/2 px-4 md:-bottom-24 bottom-1/4 sm:-bottom-1/5 md:pl-74 lg:pl-72"
+          class="container overview absolute left-1/2 -translate-x-1/2 px-4 md:-bottom-24 bottom-1/4 sm:-bottom-1/6 xs:bottom-1/5 md:pl-74 lg:pl-72"
         >
           <div class="flex flex-col">
             <span
@@ -120,16 +120,6 @@
 </template>
 
 <style scoped>
-.bg-cover {
-  background-size: cover;
-}
-.bg-center {
-  background-position: center;
-}
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .bg-hero::before {
   content: "";
   position: absolute;
@@ -139,6 +129,11 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+  .overview {
+    bottom: -20%;
+  }
+}
 </style>
 
 <script setup lang="ts">
@@ -147,7 +142,7 @@ import Stars from "./icons/Stars.vue";
 import type { Media } from "~/types";
 
 defineProps<{
-  item: any;
+  item: Media;
 }>();
 
 const $img = useImage();

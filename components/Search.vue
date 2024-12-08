@@ -17,9 +17,9 @@
         v-show="showSearch"
         class="absolute max-h-80 w-full flex flex-col of-y-auto rounded-b-lg bg-black-90 py-1.5"
       >
-        <template v-if="!loading && data?.length > 0">
+        <template v-if="!loading && data?.length as number > 0">
           <div
-            v-for="d in data"
+            v-for="d in data as any[]"
             :key="d.id"
             class="cursor-pointer px-4.5 py-1 text-sm hover:bg-white/50"
             @click="redirectToDetail(d.id)"
@@ -46,8 +46,8 @@ import type { Media } from "~/types";
 const props = defineProps<{
   modelValue: string;
   block?: boolean;
-  data?: any; // Media[]
-  loading?: any; // boolean
+  data?: Media[];
+  loading?: boolean;
 }>();
 
 const emit = defineEmits(["update:model-value"]);

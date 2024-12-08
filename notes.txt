@@ -1,6 +1,0 @@
-To Do :
-- Footer [DONE]
-- Fix styling
-- movies page [DONE]
-- detail page
-- adjust css style base od figma design

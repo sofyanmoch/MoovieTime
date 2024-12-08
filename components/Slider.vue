@@ -93,6 +93,9 @@
 }
 .swiper-pagination-bullet-active {
   background-color: #e74c3c;
+  width: 30px;
+  height: 12px;
+  border-radius: 6px;
 }
 </style>
 
