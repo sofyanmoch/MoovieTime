@@ -1,4 +1,4 @@
-# Vue/Nuxt.js Project
+# MoovieTime
 
 This is a project built using Vue.js and Nuxt.js. Follow the instructions below to set up and run the project on your local machine.
 
@@ -38,3 +38,8 @@ Follow these steps to set up the project:
     To create a production-ready build, run:
     ```bash
     npm run build
+
+## Modules Used
+- [VueUse](https://github.com/vueuse/vueuse), Collection of essential Vue Composition Utilities for Vue 2 and 3
+- [NuxtImage](https://image.nuxt.com/), Plug-and-play image optimization for Nuxt apps
+- [NuxtSwiper](https://github.com/cpreston321/nuxt-swiper), Swiper.js for Nuxt
