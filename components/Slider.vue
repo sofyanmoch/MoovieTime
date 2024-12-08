@@ -1,5 +1,5 @@
 <template>
-  <div class="relative pb-28 pt-10">
+  <div class="relative pb-22 pt-10">
     <Transition appear name="fade">
       <div v-show="mounted">
         <Swiper
