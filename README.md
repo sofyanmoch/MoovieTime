@@ -43,3 +43,9 @@ Follow these steps to set up the project:
 - [VueUse](https://github.com/vueuse/vueuse), Collection of essential Vue Composition Utilities for Vue 2 and 3
 - [NuxtImage](https://image.nuxt.com/), Plug-and-play image optimization for Nuxt apps
 - [NuxtSwiper](https://github.com/cpreston321/nuxt-swiper), Swiper.js for Nuxt
+
+## Screenshot
+![Home](image.png)
+![Search](image-3.png)
+![Reviews](image-1.png)
+![Movies](image-2.png)
